@@ -108,7 +108,7 @@ def go(args):
     # you just created to add the "random_forest_dir" directory to the artifact, and finally use
     # run.log_artifact to log the artifact to the run
     model_artifact = wandb.Artifact(
-        "output_artifact",
+        args.output_artifact,
         "model_export", 
         "The trained random forest model"
         )
