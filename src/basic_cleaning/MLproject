@@ -6,27 +6,27 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: the dataset artifact to be cleaned
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: the cleaned dataset artifact 
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: the cleaned dataset artifact type
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: a description of the cleaned dataset artifact
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
+        description: the minimum value for the price column of the input dataset artifact
         type: string
 
       max_price:
-        description: ## ADD DESCRIPTION
+        description: the maximum value for the price column of the input dataset artifact
         type: string
 
 
